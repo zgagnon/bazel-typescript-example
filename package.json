@@ -4,6 +4,10 @@
   "description": "A minimal example of bazel rules to compile TypeScript. EXAMPLE CODE ONLY don't actually use please.",
   "dependencies": {},
   "devDependencies": {
+    "@bazel/bazel": "latest",
+    "@bazel/buildifier": "latest",
+    "@bazel/ibazel": "latest",
+    "@bazel/typescript": "latest",
     "typescript": "^3.1.6"
   },
   "scripts": {},
